@@ -25,16 +25,15 @@ Ce projet est une application de gestion de bibliothèque. Elle a pour but de pe
    git clone https://github.com/votre-utilisateur/gestion-emprunts.git
 
 2. Accédez au répertoire du projet :
-
-cd gestion-emprunts
+   ```bash
+   cd gestion-emprunts
 
 3. Créez la base de données :
-
-CREATE DATABASE bibliotheque;
+   ```bash
+   CREATE DATABASE bibliotheque;
 
 4. Exécutez le script de création des tables et d'insertion des données :
-
-\i chemin/vers/le/fichier_de_creation.sql
-
-\i chemin/vers/le/fichier_d_insertion.sql
+   ```bash
+   \i chemin/vers/le/fichier_de_creation.sql
+   \i chemin/vers/le/fichier_d_insertion.sql
 
