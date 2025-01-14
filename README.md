@@ -1,1 +1,42 @@
 # gestion-bibliotheque
+
+## Description
+
+Ce projet est une application de gestion de bibliothèque. Elle a pour but de permettre la gestion des membres, des livres ainsi que des emprunts dans une bibliotheque de façon automatique.
+
+## Fonctionnalités
+
+- **Gestion des membres** : Ajouter, modifier et supprimer des membres.
+- **Gestion des livres** : Ajouter, modifier et supprimer des livres.
+- **Emprunts** : Enregistrer les emprunts de livres par les membres, y compris les dates d'emprunt et de retour prévues.
+- **Système de Recherche** : Rechercher un livre par titre, auteur ou catégorie.
+- **Calcul des retards et des pénalités** : Calculer le retard à partir de la dateRetourPrevue et appliquer une pénalité le cas échéant.
+
+## Technologies Utilisées
+
+- **Base de données** : PostgreSQL
+- **Langage de programmation** : SQL pour les requêtes, Java pour le reste.
+- **Environnement de développement** : Intellij IDEA
+
+## Installation
+
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/votre-utilisateur/gestion-emprunts.git
+
+    Accédez au répertoire du projet :
+
+Copier
+cd gestion-emprunts
+
+Créez la base de données :
+
+Copier
+CREATE DATABASE bibliotheque;
+
+Exécutez le script de création des tables et d'insertion des données :
+
+Copier
+\i chemin/vers/le/fichier_de_creation.sql
+\i chemin/vers/le/fichier_d_insertion.sql
+
