@@ -35,5 +35,6 @@ CREATE DATABASE bibliotheque;
 4. Exécutez le script de création des tables et d'insertion des données :
 
 \i chemin/vers/le/fichier_de_creation.sql
+
 \i chemin/vers/le/fichier_d_insertion.sql
 
