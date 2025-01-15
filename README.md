@@ -22,7 +22,7 @@ Ce projet est une application de gestion de bibliothèque. Elle a pour but de pe
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/gestion-emprunts.git
+   git clone https://github.com/MikeU-devpro/gestion-bibliotheque.git
 
 2. Accédez au répertoire du projet :
    ```bash
